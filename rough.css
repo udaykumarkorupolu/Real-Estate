@@ -1,0 +1,161 @@
+header{
+    display:inline-flex;
+    align-items: center;
+}
+h3{
+    margin-left:150px;
+    margin-right:250px;
+}
+header a{
+    text-decoration: none;
+    color:black;
+    margin-right:30px;
+}
+header i{
+    color:green;
+    margin-left:60px ;
+    margin-right: 40px;
+}
+header button{
+    height:40px;
+    width:120px;
+    background-color: green;
+    color:white;
+    border-radius: 50px;
+    border:none;
+}
+.section1{
+    height:550px;
+    width:100%;
+    background-image: url(https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004003.jpg?t=st=1718500682~exp=1718504282~hmac=482008eec975c14e02bdd2d723500ecf12ec44f420e26fde4cb824208fe26782&w=1060);
+    background-size: cover;
+    position: absolute;
+}
+.text h1,p{
+    color:white;
+}
+.text{
+    position: absolute;
+    top:100px;
+    left:150px;
+}
+.form{
+    display: inline-flex;
+    gap:10px;
+}
+.buttons{
+    position: relative;
+    left:150px;
+    top: 430px;
+    height:50px;
+    width:230px;
+    background-color: white;
+    padding-top:10px;
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+}
+.section2{
+    position: relative;
+    padding-left:10px;
+    padding-top:-40px;
+    left:150px;
+    margin-right:250px;
+    background-color: white;
+    top:430px;
+    paddin:20px;
+   
+    box-shadow: 0 0 20px rgb(240, 223, 223);
+}
+.section3{
+    display:inline-flex;
+    margin-top:500px;
+}
+.section3 .div1{
+    height:500px;
+    width:400px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(240, 223, 223);
+    background-image: url(https://img.freepik.com/free-photo/3d-model-residential-building_23-2150761206.jpg?t=st=1718504095~exp=1718507695~hmac=416618ee83c9c2ba8cb1c75d8aa67c05d193903990016bc3bfb70c7684e032ce&w=740);
+    margin-left:150px;
+    margin-top:20px;
+    background-size: cover;
+}
+.section3 .content{
+    margin-left:40px;
+    margin-top: 100px;
+}
+.section3 button{
+    height:40px;
+    width:120px;
+    background-color: green;
+    color:white;
+    border-radius: 50px;
+    border:none;
+}
+.section4{
+    display: inline-flex;
+}
+
+.section4-a,.section4-b,.section4-c{
+    margin-top:80px;
+    height:250px;
+    width:300px;
+    box-shadow: 0 0 20px rgb(240, 223, 223);
+    margin-bottom:50px;
+    margin-right:60px;
+}
+.section4-a{
+    margin-left:150px;
+}
+.section5 .grid{
+    padding:0 150px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.section5 .grid-items{
+    height:450px;
+    background-color:white;
+    box-shadow: 0 0 20px rgb(240, 223, 223);
+    border-radius: 10px;
+}
+.section5 img{
+    height:200px;
+    width:300px;
+    object-fit: cover;
+}
+.footer-block{
+    display:inline-flex;
+    justify-content: center;
+   
+}
+footer{
+    padding-top:100px;
+    padding-left:100px;
+    background-color: rgb(253, 252, 252);
+}
+footer a{
+    text-decoration: none;
+    color:white;
+   
+}
+.about-us{
+    margin-left:100px;
+}
+footer div{
+    margin-right:100px;
+}
+input{
+    height:20px;
+    width:200px;
+}
+.social-media{
+    display:inline-flex;
+    margin-top: 80px;
+    margin-left:430px;
+}
+.social-media i{
+    margin-left:10px;
+    color:white;
+}
